@@ -1,11 +1,7 @@
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+import java.util.Scanner;
 
-//https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/flip-columns/problem
-public class FlipColumns {
+//https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/flip-columns
+public class FlipColumnsOptimal {
 
     public static int max(int a, int b) {
         return (a >= b) ? a : b;
@@ -26,7 +22,7 @@ public class FlipColumns {
                     if(matrix[row][col] == matrix[i][col])
                         matched++;
                 }
-                
+
                 if(matched == m) {
                     rowFrequency++;
                     visRows[i] = 1;
