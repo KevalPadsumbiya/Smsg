@@ -4,6 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
+//https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/flip-columns/problem
 public class FlipColumns {
 
     public static int max(int a, int b) {
